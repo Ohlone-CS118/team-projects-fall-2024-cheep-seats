@@ -15,9 +15,6 @@ savg:			.asciiz "Your averae daily sleep duration (in hours) is: "
 lowexercise:			.asciiz " \n Try to exercise more to stay active and healthy."
 lowsleep:		.asciiz "\nInsufficient sleep, try to get more sleep."
 
-standardw:		.word 8
-standarde:		.word 33
-
 
     display:        .space 16384
     .define:
